@@ -61,7 +61,7 @@ namespace WinFormsApp2025_kutuphane
                     var yeniKitap = new Kitap(b: textBox_kAd.Text, y: textBox_kYazar.Text,
                                               t: (Kitap.Kitaptur)comboBox_kTur.SelectedValue,
                                               s: Convert.ToInt32(textBox_kSs.Text), yy: yayinYili,
-                                              odunc: false);
+                                              odunc: checkBox_Odunc.Checked);
                     if(islem == "duzenle")
                     {
                         Form_kitaplar.instance.kutuphane.KitapGuncelle(kitapBasligi, yeniKitap);
