@@ -1,4 +1,4 @@
-# Windows Forms Kütüphane
+# Windows Forms KÃ¼tÃ¼phane
 
-## Özellikler
-* Kitap Ekleme, Düzenleme, Listeleme, Silme (CRUD)
+## Ã–zellikler
+* Kitap Ekleme, DÃ¼zenleme, Listeleme, Silme (CRUD)
